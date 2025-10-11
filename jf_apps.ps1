@@ -9,7 +9,6 @@ if ($Host.Name -eq 'ConsoleHost') {
 Add-Type -AssemblyName System.Windows.Forms
 
 # --- MEJORA ESTÉTICA: Activar estilos visuales modernos ---
-# Esto hace que los controles usen el tema actual de Windows (ej. Windows 10/11)
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
 # Crear formulario
@@ -77,7 +76,7 @@ $mainFlowPanel.FlowDirection = [System.Windows.Forms.FlowDirection]::TopDown
 $mainFlowPanel.WrapContents = $false # Para que los GroupBox no se pongan uno al lado del otro
 $form.Controls.Add($mainFlowPanel)
 
-# Obtenemos las claves y las ordenamos alfabéticamente para que las categorías aparezcan en orden
+# Obtener claves y ordenar alfabéticamente para que las categorías aparezcan en orden
 foreach ($category in $appCategories.Keys | Sort-Object) {
     # Crear un GroupBox para cada categoría
     $groupBox = New-Object System.Windows.Forms.GroupBox
