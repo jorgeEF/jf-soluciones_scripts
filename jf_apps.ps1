@@ -30,6 +30,8 @@ $appCategories = @{
         "Google.Chrome",
 		"Google.GoogleDrive",
 		"Mozilla.Firefox.es-AR",
+		"LocalSend.LocalSend",
+		"RustDesk.RustDesk",
 		"Syncthing.Syncthing",
 		"Tailscale.Tailscale",
         "qBittorrent.qBittorrent",
@@ -49,9 +51,8 @@ $appCategories = @{
 	Oficina = @(
 		"7zip.7zip",
 		"KeePassXCTeam.KeePassXC",
-		"TheDocumentFoundation.LibreOffice",		      
-		"Microsoft.PowerToys",
-		"RustDesk.RustDesk",  
+		"TheDocumentFoundation.LibreOffice",		
+		"Microsoft.PowerToys",		  
 		"ShareX.ShareX",
 		"SumatraPDF.SumatraPDF"
     )
