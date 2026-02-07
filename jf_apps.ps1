@@ -56,13 +56,15 @@ $appCategories = @{
 		"ShareX.ShareX",
 		"SumatraPDF.SumatraPDF"
     )
-	Programacion = @(        
-        "Notepad++.Notepad++",
-        "Microsoft.VisualStudioCode",
-		"HeidiSQL.HeidiSQL",
-        "Git.Git",
+	Programacion = @(
+		"Google.Antigravity",        
+		"Git.Git",
+		"HeidiSQL.HeidiSQL",        
         "OpenJS.NodeJS.LTS",
-		"CoreyButler.NVMforWindows"
+		"Notepad++.Notepad++",
+		"CoreyButler.NVMforWindows",
+		"SST.OpenCodeDesktop",
+		"Microsoft.VisualStudioCode"
     )
 }
 
